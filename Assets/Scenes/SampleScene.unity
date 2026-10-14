@@ -1244,7 +1244,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5637130076528547798, guid: a1d32e85a9b311b46ac2da99f204b83a, type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 1766950261}
   m_SourcePrefab: {fileID: 100100000, guid: a1d32e85a9b311b46ac2da99f204b83a, type: 3}
 --- !u!43 &229048094
 Mesh:
@@ -10628,6 +10631,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   target: {fileID: 1766950256}
+  attackReach: 1
+  attackDelay: 1
 --- !u!195 &737509612
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -34549,6 +34554,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5637130076528547798, guid: a1d32e85a9b311b46ac2da99f204b83a, type: 3}
   m_PrefabInstance: {fileID: 159675208}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1766950261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766950256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57e1d1f3d6d52de49a96fd08b8894677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponHandler
+  weaponAnchor: {fileID: 0}
+  mainCam: {fileID: 0}
 --- !u!1 &1774539719
 GameObject:
   m_ObjectHideFlags: 0
