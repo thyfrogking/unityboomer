@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class WeaponCollectable : MonoBehaviour 
 {
-    public Weapon shottyPrefab;
+    public Weapon collectablegunPrefab;
     public float rotationSpeed = 90;
     public float yPositionOscillation = 0.1f;
 
@@ -37,7 +37,7 @@ public class WeaponCollectable : MonoBehaviour
             WeaponHandler weaponHandler = other.GetComponent<WeaponHandler>();
             if (weaponHandler != null )
             {
-                Weapon weapon = GameObject.Instantiate(shottyPrefab);
+                Weapon weapon = GameObject.Instantiate(collectablegunPrefab);
                 weaponHandler.Equip(weapon);
 
                 Destroy(gameObject);
