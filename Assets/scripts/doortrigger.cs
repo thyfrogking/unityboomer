@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class doortrigger : MonoBehaviour
 {
-    private Animator _doorAnimator;
+    public  Animator _doorAnimator;
 
     void start()
     {
