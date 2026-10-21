@@ -185,7 +185,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   target: {fileID: 0}
-  attackReach: 100
+  attackReach: 2
   attackDelay: 1
 --- !u!114 &1480591873375752787
 MonoBehaviour:

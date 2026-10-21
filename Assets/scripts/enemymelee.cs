@@ -43,7 +43,7 @@ public class enemymelee : MonoBehaviour
             health targetHealth = target.GetComponent<health>();
             if (targetHealth != null)
             {
-                targetHealth.Damage(20);
+                targetHealth.Damage(10);
             }
             attackCooldown = attackDelay;
         }

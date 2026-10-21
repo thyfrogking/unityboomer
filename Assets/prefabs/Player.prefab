@@ -268,6 +268,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7252316700676885167}
+  - component: {fileID: -7675433229660442801}
   - component: {fileID: 3991095097466881168}
   - component: {fileID: 2451962779064260149}
   - component: {fileID: 4533433816067938496}
@@ -297,6 +298,20 @@ Transform:
   - {fileID: 1873206906311053661}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-7675433229660442801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7081472541164012905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa4fb4174aecda3408d7946785e5b46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::health
+  maxHealth: 100
+  Health: 0
 --- !u!114 &3991095097466881168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -311,6 +326,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WeaponHandler
   weaponAnchor: {fileID: 7139282334060579194}
   mainCam: {fileID: 7974111185256923054}
+  maxAmmo: 30
+  Ammo: 0
 --- !u!114 &2451962779064260149
 MonoBehaviour:
   m_ObjectHideFlags: 0
